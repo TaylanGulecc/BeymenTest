@@ -17,12 +17,10 @@ public class HomePage extends Page {
     }
 
     public void closeCookiesPopup() {
-        logger.info("Çerez pop-up görüntülenir ve tüm çerezleri kabul et'e tıklanır");
         click(ACCEPT_COOKIES);
     }
 
     public void closeGenderPopup() {
-        logger.info("cinsiyet seçim pop-up'ı görüntülenir ve cinsiyet seçilir.");
         click(GENDER_POPUP_CLOSE);
     }
 

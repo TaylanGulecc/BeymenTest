@@ -19,6 +19,7 @@ public class ProductDetailPage extends Page {
     }
 
     public String getProductName() {
+        logger.info("Ürün bilgisi metni alınır.");
         return getText(PRODUCT_NAME);
     }
 
